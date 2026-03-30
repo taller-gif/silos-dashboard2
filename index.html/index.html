@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Monitoreo de Silos</title>
+
+<script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>MONITOREO DE SILOS</h1>
+
+<div class="container">
+
+    <div class="gauge">
+        <canvas id="g1"></canvas>
+        <p>Silo 1: <span id="t1">0%</span></p>
+    </div>
+
+    <div class="gauge">
+        <canvas id="g2"></canvas>
+        <p>Silo 2: <span id="t2">0%</span></p>
+    </div>
+
+    <div class="gauge">
+        <canvas id="g3"></canvas>
+        <p>Silo 3: <span id="t3">0%</span></p>
+    </div>
+
+    <div class="gauge">
+        <canvas id="g4"></canvas>
+        <p>Silo 4: <span id="t4">0%</span></p>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

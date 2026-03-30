@@ -1,0 +1,17 @@
+body {
+    background: #111;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gauge {
+    width: 220px;
+    margin: 20px;
+}
